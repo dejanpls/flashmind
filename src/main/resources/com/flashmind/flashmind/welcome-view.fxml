@@ -5,6 +5,7 @@
 <?import javafx.scene.layout.VBox?>
 
 <?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.HBox?>
 <VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
       fx:controller="com.flashmind.flashmind.WelcomeController">
     <padding>
@@ -12,6 +13,10 @@
     </padding>
 
     <Label fx:id="welcomeText"/>
-    <Button text="Login" onAction="#onLoginButtonClick"/>
-    <Button text="Register" onAction="#onRegisterButtonClick"/>
+
+    <!-- Buttons for actions -->
+    <HBox alignment="CENTER" spacing="10.0">
+        <Button text="Login" onAction="#onLoginButtonClick"/>
+        <Button text="Register" onAction="#onRegisterButtonClick"/>
+    </HBox>
 </VBox>

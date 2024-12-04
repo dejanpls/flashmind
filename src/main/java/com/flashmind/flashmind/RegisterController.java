@@ -14,11 +14,11 @@ public class RegisterController {
     @FXML
     private Label buttonText;
 
-//    @FXML
-//    protected void onLoginButtonClick() throws IOException {
-//        buttonText.setText("Handle login!");
-//        loadView("main-view.fxml");
-//    }
+    @FXML
+    protected void onRegisterButtonClick() throws IOException {
+        buttonText.setText("Handle login!");
+        loadView("main-view.fxml");
+    }
 
     @FXML
     protected void onCancelButtonClick() throws IOException {
